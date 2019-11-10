@@ -1,0 +1,158 @@
+
+html, body {
+    height: 100%;
+    margin: 0 ;
+    padding: 0 10px;
+
+}
+body *{
+    box-sizing: border-box;
+
+}
+
+.main-title{
+    font-size: 20px;
+    padding: 25px;
+    text-align: center;
+}
+
+.tablinks {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #ccc;
+    color: black;
+        border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    width: 50%;
+}
+
+.tablinks.active{
+    color: white;
+    background-color: #b3b3b3;
+    font-size: 19px;
+}
+
+.tablinks:hover {
+    background-color: #777;
+    color: white;
+}
+
+
+.main{
+    padding: 25px 0;
+}
+.search{
+    width: 320px;
+    background-color: #cccccc;
+    border: none;
+    color: black;
+    outline: none;
+    padding: 5px 10px;
+}
+
+.search-component-block{
+    margin-bottom: 30px;
+}
+
+
+.pagination-block{
+    text-align: right;
+}
+.user-item-block{
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+
+.user-item{
+    padding: 8px;
+    background-color: aqua;
+    width: 160px;
+    cursor: pointer;
+    /*height: 170px;*/
+}
+
+.user-img{
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    display: block;
+    border-radius:30px;
+}
+
+.user-name{
+    text-align: center;
+    font-weight: bold;
+}
+
+.back-button{
+    margin-bottom: 15px;
+    padding-left: 2px;
+    cursor: pointer;
+}
+
+.user-info-row{
+    margin-bottom: 15px;
+}
+.user-item-avatar-block{
+
+    margin-right: 50px;
+}
+.user-info-block{
+    background-color: aqua;
+    padding: 15px;
+    width:  calc(100% - 210px);
+
+}
+
+.repos-list-element{
+    list-style: none;
+}
+
+.repos-list-element li{
+    background: aqua;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    /*width: auto;*/
+}
+.flex-item {
+    padding: 5px;
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.color-aqua{
+    color: aqua;
+}
+.container {
+    padding: 2px 16px;
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
